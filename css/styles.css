@@ -1,7 +1,8 @@
-/* line 6, SCSS/styles.scss */
+/* line 5, SCSS/styles.scss */
 body {
   background-color: #373C53;
-  display: grid;
+  display: flex;
+  height: 100vh;
 }
 
 /* line 11, SCSS/styles.scss */

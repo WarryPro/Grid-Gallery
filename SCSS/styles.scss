@@ -2,10 +2,10 @@ $bg-color: #373C53;
 $bg-hover: #8190C9;
 $font-color: #F9E2CD;
 
-
 body {
   background-color: $bg-color;
-  display: grid;
+  display: flex;
+  height: 100vh;
 }
 
 .gallery_container {
