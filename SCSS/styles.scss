@@ -6,12 +6,14 @@ body {
   background-color: $bg-color;
   display: flex;
   height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery_container {
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(6, 120px);
+  grid-template-rows: repeat(5, 120px);
   grid-auto-flow: column;
   grid-gap: 25px;
   margin: auto;
